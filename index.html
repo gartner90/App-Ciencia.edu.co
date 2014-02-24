@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ciencia - Bachillerato Virtual</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+ 
+<div data-role="page" id="page">
+	 
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	 
+	<div data-role="content">	
+		<ul data-count-theme="e" data-role="listview" data-split-theme="a" data-theme="a" data-divider-theme="b">
+			<li><a href="#page2">Ingresar</a></li>
+            <li><a href="#page3">Contacto</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-theme="c">
+		<h4>Desarrollado por www.CristianGartner.com</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	</div>
+	<div data-role="content" data-theme="a">
+	  <div data-role="fieldcontain">
+	    <label for="passwordinput">Introduce la contraseña para Entrar:</label>
+	    <input name="passwordinput" type="password" id="passwordinput"   data-theme="c"  />
+      </div> 
+      <p id="pinc" style="text-align: center;DISPLAY:NONE;">CONTRASEÑA INCORRECTA</p>
+	  <input type="submit" value="ENTRAR" data-icon="arrow-r" data-iconpos="right" data-theme="b" id="entrar" />	
+		
+        
+<script type="text/javascript">
+ 
+$('#entrar').click(function(){
+  if($('#passwordinput').val()=="123"){
+      Redirigir();
+  } 
+  else{
+	  $("#pinc").show();
+	  }
+ });
+function Redirigir()
+{
+ document.location.href="#ccursos";
+}
+</script>
+        
+        		
+	</div>
+	<div data-role="footer" data-theme="c">
+		<h4><a href="#page">VOLVER</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp Desarrollado por www.CristianGartner.com</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3"> 
+	<div data-role="header">
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	</div>
+	<div data-role="content">	
+		<p style="text-align: center;">Cra. 7 No. 31a-25 Santa Isabel - Dosquebradas - Rda <br>
+		  <br>
+		  Tel. : 343 66 15 - 339 27 24 - Cel.: 318 572 53 47 - 320 674 40 08 <br>
+		  <br><a href="mailto:
+ &lt;script type='text/javascript'&gt;
+ &lt;!--
+ var prefix = 'ma' + 'il' + 'to';
+ var path = 'hr' + 'ef' + '=';
+ var addy25998 = 'info' + '@';
+ addy25998 = addy25998 + 'ciencia' + '.' + 'edu' + '.' + 'co';
+ document.write('&lt;a ' + path + '\'' + prefix + ':' + addy25998 + '\'&gt;');
+ document.write(addy25998);
+ document.write('&lt;\/a&gt;');
+ //--&gt;\n &lt;/script&gt;&lt;script type='text/javascript'&gt;
+ &lt;!--
+ document.write('&lt;span style=\'display: none;\'&gt;');
+ //--&gt;
+ &lt;/script&gt;Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+ &lt;script type='text/javascript'&gt;
+ &lt;!--
+ document.write('&lt;/');
+ document.write('span&gt;');
+ //--&gt;
+ &lt;/script&gt;"> </a>
+ <script type="text/javascript">
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy96889 = '&#105;nf&#111;' + '&#64;';
+ addy96889 = addy96889 + 'c&#105;&#101;nc&#105;&#97;' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
+ var addy_text96889 = '&#105;nf&#111;' + '&#64;' + 'c&#105;&#101;nc&#105;&#97;' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy96889 + '\'>');
+ document.write(addy_text96889);
+ document.write('<\/a>');
+ //-->\n </script><a href="mailto:info@ciencia.edu.co">info@ciencia.edu.co</a><script type="text/javascript">
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+ <script type="text/javascript">
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script></span><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo. </span><br>
+ <br>
+ <span style="line-height: 1.3em;">&nbsp;</span>
+ <a href="www.Ciencia.edu.co" target="_blank">www.Ciencia.edu.co</a></p></br>	
+	</div>
+	<div data-role="footer" data-theme="c">
+		<h4><a href="#page">VOLVER</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp Desarrollado por www.CristianGartner.com</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="ccursos"> 
+	<div data-role="header">
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	</div>
+	<div data-role="content">
+    
+    	<ul data-count-theme="e" data-role="listview" data-split-theme="a" data-theme="a" data-divider-theme="b">
+			<li><a href="#c3">Ciclo III</a></li>
+            <li><a href="#c4">Ciclo IV</a></li>
+            <li><a href="#c5">Ciclo V</a></li>
+            <li><a href="#c6">Ciclo VI</a></li>
+		</ul>
+    
+ 	</div>
+	<div data-role="footer" data-theme="c">
+		<h4><a href="#page">VOLVER</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp Desarrollado por www.CristianGartner.com</h4>
+	</div></div>
+  
+    <div data-role="page" id="c3"> 
+	<div data-role="header">
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	</div>
+	<div data-role="content">
+    
+    	<ul data-count-theme="e" data-role="listview" data-split-theme="a" data-theme="b" data-divider-theme="b">
+			<li><a href="#artes3">Artes</a></li>
+            <li><a href="#biologia3">Biología</a></li>
+            <li><a href="#sociales3">Ciencias Sociales</a></li>
+            <li><a href="#eduf3">Educación Física</a></li>
+            <li><a href="#espanol3">Español</a></li>
+            <li><a href="#etica3">Ética</a></li>
+            <li><a href="#ingles3">Ingles</a></li>
+            <li><a href="#tecnologia3">Tecnología</a></li>
+            <li><a href="#matematicas3">Matemáticas</a></li>
+            <li><a href="#manual3">Manual de Convivencia</a></li>
+		</ul>
+    
+ 	</div>
+	<div data-role="footer" data-theme="c">
+		<h4><a href="#ccursos">VOLVER</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp Desarrollado por www.CristianGartner.com</h4>
+	</div> 
+    
+  
+</div>
+
+
+<!-- ARTES 3 -->
+<div data-role="page" id="artes3"> 
+	<div data-role="header">
+		<img src="head-ciencia.png" width="100%" height="auto"/>
+	</div>
+	<div data-role="content" data-theme="d">
+    
+ 
+<embed src="iii/artistica-III.pdf" width="500" height="375">
+    
+ 	</div>
+	<div data-role="footer" data-theme="c">
+		<h4><a href="#c3">VOLVER</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp Desarrollado por www.CristianGartner.com</h4>
+	</div> 
+    
+  
+</div>
+
+
+</body>
+</html>
